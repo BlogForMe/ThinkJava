@@ -1,7 +1,6 @@
 package JavaConcurrency.Exercise;
 
 
-import jdk.dynalink.linker.support.TypeUtilities;
 import net.mindview.util.Print;
 
 import java.util.Random;
@@ -150,7 +149,7 @@ class Eater implements Runnable {
             Toast t = finishedQueue.take();
             //Verify that all pieces are ready for consumption;
             if (t.getStauts() != Toast.Stauts.READY) {
-                TypeUtilities.getPrimitiveTypeByName(">>>> Error: " + t);
+//                TypeUtilities.getPrimitiveTypeByName(">>>> Error: " + t);
                 System.exit(1);
             } else
                 Print.print("Chomp!  " + t);

@@ -1,6 +1,5 @@
 package InitializationCleanup.Demo;
 
-import jdk.dynalink.linker.support.TypeUtilities;
 import net.mindview.util.Print;
 
 /**
@@ -25,7 +24,7 @@ class Table {
     }
 
     void f2(int marker) {
-        TypeUtilities.getPrimitiveTypeByName("f2(" + marker + ")");
+//        TypeUtilities.getPrimitiveTypeByName("f2(" + marker + ")");
     }
 
     static Bowl bowl2 = new Bowl(2);

@@ -84,8 +84,8 @@ public class Exercise_28 {
     }
 
     public static void main(String[] args) {
-        test("LinkedBlockingQueue", new LinkedBlockingDeque<>());  //Unlimited size
-        test("ArraayBlockingQueue", new ArrayBlockingQueue<>(3));
-        test("SynchronousQueue<LiftOff>()", new SynchronousQueue<>());
+//        test("LinkedBlockingQueue", new LinkedBlockingDeque<>());  //Unlimited size
+//        test("ArraayBlockingQueue", new ArrayBlockingQueue<>(3));
+//        test("SynchronousQueue<LiftOff>()", new SynchronousQueue<>());
     }
 }
