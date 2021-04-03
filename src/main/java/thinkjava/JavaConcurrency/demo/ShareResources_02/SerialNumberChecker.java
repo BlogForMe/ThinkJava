@@ -19,7 +19,7 @@ class SerialNumberGenerator {
  * Operations that may seem safe are not
  * when threads are present
  */
-//Reuses  storage so we don't  run out of memory;
+//Reuses  storage so we don't  run out of jmm;
 class CircularSet {
     private final int[] array;
     private int len;
