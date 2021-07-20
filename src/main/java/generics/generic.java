@@ -1,4 +1,4 @@
-package resume.generics;
+package generics;
 //https://noteforme.github.io/2018/04/16/Generics/
 public class generic{
     public static void main(String[] args) {

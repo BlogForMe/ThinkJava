@@ -9,30 +9,12 @@ public class BottomBorder {
 }
 
 
-class Food {
 
-}
 
-class Fruit extends Food {
-    protected Fruit() {
-
-    }
-
-     void whatName() {
-        System.out.println("whatName    Fruit'");
-    }
-}
 
 class Meat extends Food {
 }
 
-class Apple extends Fruit {
-    @Override
-    void whatName() {
-//        super.whatName();
-        System.out.println("whatName  Apple");
-    }
-}
 
 
 class Banana extends Fruit {
