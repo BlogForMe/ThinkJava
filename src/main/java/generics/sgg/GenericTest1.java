@@ -1,8 +1,7 @@
 package generics.sgg;
 
-import dreamgong.Apple;
-import dreamgong.Food;
-import dreamgong.Fruit;
+import generics.extendsuper.Apple;
+import generics.extendsuper.Fruit;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

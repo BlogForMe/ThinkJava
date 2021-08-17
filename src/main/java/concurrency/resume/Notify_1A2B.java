@@ -1,9 +1,13 @@
-package resume.concurrency;
+package concurrency.resume;
 
 
+/**
+ * 如何让两个线程循环交替打印
+ */
 public class Notify_1A2B {
     private static Thread t1;
     private static Thread t2;
+
 
     public static void main(String[] args) throws InterruptedException {
         Notify_1A2B o = new Notify_1A2B();

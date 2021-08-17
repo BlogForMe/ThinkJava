@@ -1,4 +1,4 @@
-package dreamgong;
+package generics.extendsuper;
 
 
 /**

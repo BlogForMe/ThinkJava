@@ -1,4 +1,4 @@
-package dreamgong;
+package generics.extendsuper;
 
 public class Fruit extends Food {
     public Fruit() {

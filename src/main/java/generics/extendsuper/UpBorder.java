@@ -1,4 +1,4 @@
-package dreamgong;
+package generics.extendsuper;
 
 public class UpBorder {
     public static void main(String[] args) {

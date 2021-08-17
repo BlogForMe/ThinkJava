@@ -1,4 +1,4 @@
-package resume.concurrency;
+package concurrency.resume;
 
 public class ThreadLocalTest {
     public static void main(String[] args) {

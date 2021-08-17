@@ -1,4 +1,4 @@
-package javazhiyin.io;
+package io;
 
 
 import java.io.*;

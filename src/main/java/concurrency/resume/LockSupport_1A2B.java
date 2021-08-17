@@ -1,4 +1,4 @@
-package resume.concurrency;
+package concurrency.resume;
 
 import java.util.concurrent.locks.LockSupport;
 
@@ -6,6 +6,11 @@ public class LockSupport_1A2B {
     private static Thread t1;
     private static Thread t2;
 
+    /**
+     * 如何让两个线程循环交替打印
+     * @param args
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
         char[] aI = "1234567".toCharArray();
         char[] aC = "ABCDEFG".toCharArray();
