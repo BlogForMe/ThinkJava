@@ -1,7 +1,6 @@
-package leetcode.arr;
+package algorlthm.leetcode.twopoint;
 
 import org.junit.jupiter.api.Test;
-import util.Print;
 
 import java.util.*;
 
@@ -52,13 +51,13 @@ public class ReverseVowels {
     @Test
     void test() {
         ReverseVowels reverseVowels = new ReverseVowels();
-        assertEquals("leotcede", reverseVowels.reverseVowels("leetcode"));
+        assertEquals("leotcede", reverseVowels.reverseVowels("algorlthm/leetcode"));
         assertEquals("holle", reverseVowels.reverseVowels("hello"));
     }
 
 
     public static void main(String[] args) {
-        String s = "leetcode";
+        String s = "algorlthm/leetcode";
         char[] chars = new char[s.length()];
 //        for (int i = 0; i < s.length(); i++) {
 //            System.out.print(bytes[i] + ": ");

@@ -1,4 +1,4 @@
-package datastruct.resume.rank;
+package algorlthm.learn.rank;
 
 /**
  * 冒泡排序

@@ -1,4 +1,4 @@
-package datastruct.lagou;
+package algorlthm.learn.lagou;
 
 import thinkjava.net.mindview.util.Stack;
 

@@ -1,4 +1,4 @@
-package datastruct.lagou;
+package algorlthm.learn.lagou;
 
 import thinkjava.Demo.StackAndSetMap.Stack;
 

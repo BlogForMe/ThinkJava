@@ -25,7 +25,7 @@ public class DoSomeThingDynamic {
                     @Override
                     public Object invoke(Object o, Method method, Object[] args) throws Throwable {
                         System.out.println("拍电影前的准备工作");
-                        Object result = method.invoke(object, args);
+                        Object result = method.invoke(object, args); //等价于 zhangYuXin.sayHello();
                         System.out.println("拍电影后的收尾工作");
                         return result;
                     }

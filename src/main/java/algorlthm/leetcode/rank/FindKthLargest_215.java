@@ -1,4 +1,4 @@
-package leetcode.rank;
+package algorlthm.leetcode.rank;
 
 import org.junit.jupiter.api.Test;
 import util.Print;

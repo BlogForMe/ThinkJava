@@ -1,4 +1,4 @@
-package leetcode.twopoint;
+package algorlthm.leetcode.twopoint;
 
 public class HasCycle_141 {
 

@@ -1,4 +1,4 @@
-package datastruct.resume.rank;
+package algorlthm.learn.rank;
 
 //https://segmentfault.com/a/1190000017301113
 public class HeapSort {

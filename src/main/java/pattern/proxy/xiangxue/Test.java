@@ -8,10 +8,19 @@ import java.io.IOException;
 
 public class Test {
     public static void main(String[] args) {
+
         ZhangYuXin zyxHello = new ZhangYuXin();
+        ZhangYuXinProxy zhangYuXin = new ZhangYuXinProxy(zyxHello);
+        zhangYuXin.sayHello();
+
+
+        System.out.println("--------------------\n");
+
         DoSomeThingDynamic say1 = new DoSomeThingDynamic(zyxHello);
         ZyxInterface zyxProxy = say1.create(ZyxInterface.class);
         zyxProxy.sayHello();
+
+
 
         System.out.println("---------------------\n");
 
@@ -21,10 +30,9 @@ public class Test {
         bbProxy.sayBye();
 
 
-        byte[] classFile = ProxyGenerator.generateProxyClass("ZyxInterface$0", new Class[]{ZyxInterface.class});
-        String path = new String ("/home/mc/IdeaProjects/THINKJAVA/");
+        byte[] classFile = ProxyGenerator.generateProxyClass("BinInterface$0", new Class[]{ZyxInterface.class});
         try {
-            FileOutputStream out = new FileOutputStream(path + "ZyxInterface$0.class");
+            FileOutputStream out = new FileOutputStream( "BinInterface$0.class");
             out.write(classFile);
             out.flush();
         } catch (FileNotFoundException e) {

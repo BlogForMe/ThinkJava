@@ -1,4 +1,4 @@
-package leetcode.twopoint;
+package algorlthm.leetcode.twopoint;
 
 import org.junit.jupiter.api.Test;
 

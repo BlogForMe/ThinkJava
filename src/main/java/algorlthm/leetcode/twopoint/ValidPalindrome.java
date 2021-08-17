@@ -1,4 +1,4 @@
-package leetcode.arr;
+package algorlthm.leetcode.arr;
 
 import org.junit.jupiter.api.Test;
 

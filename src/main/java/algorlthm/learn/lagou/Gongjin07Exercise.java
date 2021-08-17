@@ -1,4 +1,4 @@
-package datastruct.lagou;
+package algorlthm.learn.lagou;
 
 public class Gongjin07Exercise {
     public static void main(String[] args) {

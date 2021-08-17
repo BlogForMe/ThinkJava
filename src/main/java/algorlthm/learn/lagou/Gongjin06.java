@@ -1,4 +1,4 @@
-package datastruct.lagou;
+package algorlthm.learn.lagou;
 
 import java.util.Iterator;
 import java.util.LinkedList;

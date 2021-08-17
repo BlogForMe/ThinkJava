@@ -1,10 +1,8 @@
-package datastruct.resume.rank;
+package algorlthm.learn.rank;
 
 import util.Print;
 
-import java.util.Arrays;
-
-public class TestRank {
+public class Test {
 
     public static void main(String[] args) {
 //        int[] arr = {3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48};
