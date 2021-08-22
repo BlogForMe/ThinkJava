@@ -1,5 +1,8 @@
 package algorlthm.leetcode.twopoint;
 
+/**
+ * 6. 判断链表是否存在环
+ */
 public class HasCycle_141 {
 
     class ListNode {
