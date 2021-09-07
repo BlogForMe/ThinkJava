@@ -1,8 +1,9 @@
-package algorlthm.leetcode.arr;
+package algorlthm.leetcode.twopoint;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
+
 //https://leetcode-cn.com/problems/valid-palindrome-ii/description/
 public class ValidPalindrome {
     public boolean validPalindrome(String s) {

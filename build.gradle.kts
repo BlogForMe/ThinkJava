@@ -8,18 +8,20 @@ plugins {
 }
 
 repositories {
-    mavenLocal()
+    mavenCentral()
     maven {
         url = uri("https://repo.maven.apache.org/maven2/")
     }
+    google()
+    mavenLocal()
 }
 
 dependencies {
     implementation("com.io7m.xom:xom:1.2.10")
-    implementation("org.junit.jupiter:junit-jupiter:RELEASE")
-    testImplementation("org.junit.platform:junit-platform-launcher:1.7.2")
-    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.2")
-    testImplementation("org.junit.vintage:junit-vintage-engine:5.7.2")
+    implementation("junit:junit:4.13.2")
+//    testImplementation("org.junit.platform:junit-platform-launcher:1.7.2")
+//    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.2")
+//    testImplementation("org.junit.vintage:junit-vintage-engine:5.7.2")
 }
 
 group = "ThinkJava"

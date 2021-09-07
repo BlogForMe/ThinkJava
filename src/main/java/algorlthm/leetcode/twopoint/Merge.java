@@ -1,8 +1,8 @@
 package algorlthm.leetcode.twopoint;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.Assert.assertArrayEquals;
 
 /**
  * 88. 合并两个有序数组

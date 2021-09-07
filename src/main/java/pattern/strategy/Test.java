@@ -1,7 +1,7 @@
 package pattern.strategy;
 
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 import static pattern.strategy.DataUtil.TYPE_DB;
 import static pattern.strategy.DataUtil.TYPE_DISK;
 import static pattern.strategy.DataUtil.TYPE_NET;
@@ -17,7 +17,7 @@ public class Test {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @org.junit.Test
     void test(){
         DataUtil<String> INSTANCE = DataUtil.getInstance();
         INSTANCE.initRequest(DataFactor.CreateObj(TYPE_NET));

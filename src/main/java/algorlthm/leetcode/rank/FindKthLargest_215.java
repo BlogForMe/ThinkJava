@@ -1,9 +1,9 @@
 package algorlthm.leetcode.rank;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import util.Print;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class FindKthLargest_215 {
     public int findKthLargest(int[] nums, int k) {
