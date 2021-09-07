@@ -1,4 +1,4 @@
-package reflection;
+package main.java.reflection;
 
 public class Demo01 {
     public static void main(String[] args) {
