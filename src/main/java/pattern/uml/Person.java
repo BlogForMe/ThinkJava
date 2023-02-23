@@ -4,6 +4,13 @@ public class Person {
     private Integer age;
     private String name;
 
+    public Person() {
+    }
+
+    public Person(String name) {
+        this.name = name;
+    }
+
     public Integer getAge() {
         return age;
     }
